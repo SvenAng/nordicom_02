@@ -1,0 +1,373 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+@import "base/_globals";
+/* ================== över 980px ===================== */
+
+html {
+/*    background: orange; */
+}
+#zone-content{
+/*    background: none;*/
+    padding: 30px 0 20px;
+}
+.breadcrumb{
+    padding: 10px 0 10px 230px;
+    font-size: 14px;
+}
+#block-menu-menu-nordicom-review{
+    display: none;
+}
+
+.node-publikation-tidskrift .group-left{
+    float: left;
+    width: 50%;
+}
+.node-publikation-tidskrift .group-right{
+    float: left;
+    width: 50%;
+}
+.personal-container .personal-column {
+    width: 48%;
+}
+.personal-container .personal-column:first-child{
+    padding-right: 1%;
+}
+.personal-container .personal-column:last-child{
+    padding-left: 1%;
+}
+.personal-container .personal-column img{
+    width: inherit;
+    height: auto;
+}
+#page {
+    width: 960px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px #aaa;
+}
+.container-12 {
+    /*background: url(img/bakgrund.jpg) repeat-y;*/
+}
+.container-16 {
+    /* 	box-shadow: 0 -10px 10px #aaa;*/
+    /* 	width: 200px !important;*/
+}
+.grid-16 {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 960px !important;
+}
+.grid-4 {
+    width: 200px !important;
+}
+.container-24 .grid-4 {
+    width: 135px !important;
+}
+/*#region-sidebar-second .container-16 .grid-4{
+	width: 200px !important;
+}*/
+
+
+
+/************************* HELPERS *************************/
+html {
+    /* background: lightgreen; */
+}
+
+/************************* NYTT ***************************/
+
+/************************* STRUKTUR *************************/
+
+/* LEFT SIDEBAR */
+.region-sidebar-first-inner {
+    padding: 0 0 0 10px !important;
+}
+
+/* RIGHT SIDEBAR */
+aside#region-sidebar-second {
+    padding-left: 20px;
+}
+aside#region-sidebar-second .region-sidebar-second-inner {
+    padding-left: 0px;
+}
+.zone-postscript-wrapper {
+    max-width: none;
+}
+#zone-postscript {
+    width: 960px;
+    display: block;
+}
+#zone-postscript div.region {
+    width: 135px !important;
+}
+.zone-postscript h2 {
+    font-size: 10px;
+}
+.zone-postscript ul.menu li a {
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.zone-footer {
+
+    background: url(img/footer-bakgrund.jpg) repeat-x #58585a;
+    position: relative;
+    padding: 15px 0;
+    text-align: center;
+    p {
+        font-size: 12px;
+        max-width: none;
+        margin-right: 10px;
+        line-height: 21px;
+        color: #fff;
+        display: inline-block;
+    }
+}
+
+
+
+
+/* TOP LOGGOR */
+#zone-branding img.gulogga {
+    height: 70px;
+    width: 226px;
+    max-width: none;
+}
+#zone-branding img.ministerlogga {
+    height: 63px;
+    width: 169px;
+    margin-bottom: 0;
+    max-width: none;
+}
+
+/* STARTBLOCK */
+#block-views-snabbv-gar-block,
+#block-views-konferenser-startsidan-block,
+#block-views-puffar-loggor-frontpage-block {
+    padding-left: 10px;
+}
+.sma-start-block img {
+    max-width: none;
+}
+
+/* EXTRA PADDING PA VISSA SIDOR */
+/* Rapporttips, konferenser */
+.node-type-mediefakta-basic #region-content .region-inner,
+.view-medieforskning-konferenser,
+.view-medieforskning-konferenser-arkiv,
+.view-publikationer {
+    padding-right: 0;
+}
+
+/* CART */
+ul.inline li.line-item-summary-view-cart {
+    display: inline;
+    padding: 0 0.5em;
+}
+
+ul.inline .line-item-summary-checkout {
+    padding-right: 0px;
+}
+.page-checkout .block-system-main,
+.page-checkout #page-title,
+.page-cart .block-system-main,
+.page-cart #page-title,
+.node-type-webform .block-system-main,
+.node-type-webform #page-title {
+    padding-right: 34px;
+    padding-left: 34px;
+}
+
+
+/* BODY */
+.content .node .field-name-body img {
+    max-width: none;
+}
+
+/* BANNERS*/
+#zone-header p.bannertext {
+    font-size: 29px;
+    line-height: 35px;
+}
+.frontgreybanner {
+    height: 202px;
+    width: 960px;
+}
+.reviewbanner {
+    height: 102px;
+    width: 961px;
+}
+.informationbanner {
+    height: 102px;
+    width: 961px;
+}
+.medicalbanner {
+    height: 130px;
+    width: 961px;
+}
+
+.front{ 
+    .region-sidebar-second{ 
+        section{
+            margin-bottom: 20px;
+
+        }
+        section#block-views-snabbv-gar-block{
+            display: block;
+        }
+    }
+}
+/*Postscript*/
+
+.zone-postscript-wrapper{
+    display: block;
+    background: url(img/postscript-bakgrund.jpg) repeat-x #87888a;
+}
+.zone-postscript h2{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 6px;
+    font: 700 10px 'Source Sans Pro', sans-serif;
+}
+.zone-postscript{
+
+    position: relative;	
+    z-index: 5;
+    padding: 15px 10px;
+}
+
+.zone-postscript ul.menu li{
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    line-height: 15px;
+}
+.zone-postscript ul.menu li a{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.zone-postscript  a{
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 16px;
+}
+.region-postscript-first .region-inner .block{
+    margin-bottom: 1rem;
+}
+/* MENYN */
+.block-superfish-1 ul.menu li a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul.menu li li a {
+    padding-right: 0px;
+}
+
+/* SLIDESHOW */
+#views_slideshow_cycle_teaser_section_frontpage-page_1 {
+    width: 690px !important;
+}
+.views_slideshow_slide {
+    width: 690px !important;
+}
+#region-content .frontpage-slideshow p {
+    font-size: 18px !important;
+    line-height: 23px !important;
+    margin-bottom: 10px;
+}
+.frontpage-slideshow h1 {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 15px !important;
+}
+
+/* BOCKER */
+.publikationer-lista .ds-3col > .group-middle {
+    width: 55% !important;
+    line-height: 15px;
+}
+.publikationer-lista .ds-3col > .group-right {
+    width: 17% !important;
+    padding-left: 15px;
+}
+.publikationer-lista .ds-3col > .group-left{
+    width: 22% !important;
+}
+.publikationer-lista .ds-3col > .group-left img{
+    width: 120px !important;
+    height: auto;
+}
+//Publikationer
+.context-publikationer, .context-publications{
+    .ds-2col{
+        display: block;    
+    }
+    .ds-2col > .group-left{
+        width: 65% !important;
+        padding-right: 8px;
+        float:left;
+        display: block;
+    }
+    .ds-2col > .group-right{
+        width: 30% !important;
+        padding: 12px 0 12px 12px;
+        background: url('img/dashed-ver.jpg') repeat-y ;
+        font-size: 13px;
+        display: block;
+        img{
+            border: 1px solid #dfdfdf;
+        }
+        .field{
+            margin-bottom: 3px;
+            margin-top: 0;
+        }
+    }
+    .field-name-field-bild-1 a:hover{
+        border: 0;
+    }
+    .view-mode-full{
+        h1{
+            margin-bottom: 5px !important;        
+        }
+        .field-name-field-undertitel-1{
+            margin-bottom: 20px;
+        }
+    }
+    .view-content{
+        h4{
+            a{
+                color: $nordicom-red;
+                text-transform: none;
+                font-weight: 700;
+            }
+        }
+    }
+    .block-publikation-kapitel-block {
+        .view-content {
+
+            .field{
+                font-family: 'Source Sans Pro',sans-serif;
+                font-weight: 400;
+                font-size: 14px;
+                padding-bottom: 10px;    
+            }
+            
+        }
+        .views-row{
+            margin-bottom: 14px;
+        }
+    }
+
+    tbody tr{
+        border: none;
+        background: none;
+    }
+}
